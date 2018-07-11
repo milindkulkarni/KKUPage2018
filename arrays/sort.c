@@ -21,10 +21,10 @@ int main() {
 				guess = a[i];
 				x = i;
 			}
-			int t = a[q];
-			a[q] = a[x];
-			a[x] = t;
 		}	
+		int t = a[q];
+		a[q] = a[x];
+		a[x] = t;
 	}
 	
 	for (int i = 0; i < size; i = i + 1) {
